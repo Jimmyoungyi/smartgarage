@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Smart Garage</string>
+
+    <string name="home_title">Voice control is working</string>
+
+    <string name="home_status_off">Garage door Status: On</string>
+
+    <string name="home_status_on">Garage door Status: Off</string>
+
+    <string name="home_button_off">Turn on the door</string>
+
+    <string name="home_button_on">Turn off the door</string>
+
+    <string name="action_settings">setting</string>
+
+    <string name="title_activity_menu">Menu</string>
+
+    <string name="menu_hello">Hello, Jian xu</string>
+    <string name="title_activity_menu_page">Menu_page</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_sign_out">Sign Out</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_rssi">RSSIActivity</string>
+
+    <string name="hello_world">Bluetooth Device:</string>
+    <string name="title_activity_input_address_page">input_address_page</string>
+    <string name="input_address_page_address_name">please input device name</string>
+    <string name="input_address_page_sent_button">set</string>
+
+
+</resources>

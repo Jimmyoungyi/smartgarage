@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jimmyoungyi.smartgarage" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".Menu_page"
+            android:label="@string/title_activity_menu_page" >
+        </activity>
+        <activity
+            android:name=".RSSIActivity"
+            android:label="@string/title_activity_rssi"
+            android:parentActivityName=".Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jimmyoungyi.smartgarage.Home" />
+        </activity>
+        <activity
+            android:name=".input_address_page"
+            android:label="@string/title_activity_input_address_page" >
+        </activity>
+    </application>
+
+</manifest>
